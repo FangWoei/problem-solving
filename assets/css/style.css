@@ -1,0 +1,99 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  background-color: rgb(195, 130, 40);
+}
+.logo {
+  width: 50px;
+}
+#couvee {
+  background: url(../img/couvee.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 890px;
+}
+
+.button {
+  background-color: rgb(221, 157, 68);
+  width: 230px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#text-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.decoration {
+  position: relative;
+  top: 60px;
+  left: 300px;
+}
+
+.decoration-1 {
+  width: 600px;
+  height: 150px;
+  position: relative;
+  bottom: 100px;
+  right: 300px;
+  z-index: -99;
+}
+
+.decoration-2 {
+  width: 500px;
+  height: 150px;
+  position: relative;
+  top: 193px;
+  right: 160px;
+  z-index: -99;
+}
+
+#medium {
+  background-image: url(../img/decoration-1.jpg);
+}
+
+.decoration-4 {
+  position: relative;
+  left: 150px;
+  top: 350px;
+}
+
+
+.brown{
+position: relative;
+    top: 100px;
+    left: 300px;
+    z-index: 999;
+}
+
+.story-0{
+    z-index: 99;
+}
+
+.stone{
+    position: relative;
+    bottom: 100px;
+    right: 100px;
+    z-index: -1;
+}
+
+footer{
+    background-image: url(../img/footer-bg.png);
+}
+
+#footer{
+    background-color: rgb(221, 157, 68);
+}
+
+@media only screen and (max-width: 769px) {
+    .decoration, .decoration-1, .brown, .decoration-4{
+        display: none;
+    }
+}

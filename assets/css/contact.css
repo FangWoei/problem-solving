@@ -1,0 +1,41 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  background-color: rgb(195, 130, 40);
+}
+.logo {
+  width: 50px;
+}
+
+header {
+  background: url(../img/merchandise-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+main {
+  background: url(../img/contact-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+footer {
+  background-image: url(../img/footer-bg.png);
+}
+
+#footer {
+  background-color: rgb(221, 157, 68);
+}
+
+.button {
+    background-color: rgb(221, 157, 68);
+    width: 230px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

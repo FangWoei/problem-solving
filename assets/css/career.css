@@ -1,0 +1,40 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+nav {
+  background-color: rgb(195, 130, 40);
+}
+.logo {
+  width: 50px;
+}
+section.top {
+  background-image: url("https://www.couvee.co.id/wp-content/uploads/2020/01/BD5E5AEF-511D-4C82-BEF0-9EB71A03F452.jpeg");
+  height: 55vh;
+  background-size: cover;
+}
+
+.photo {
+  position: absolute;
+  top: 680px;
+  right: 600px;
+  z-index: -1;
+}
+.photo1 {
+  position: absolute;
+  top: 550px;
+  right: 100px;
+}
+
+button {
+  background-color: goldenrod;
+  width: 150px;
+  height: 40px;
+}
+
+footer{
+  background-image: url(../img/footer-bg.png);
+}
+
+#footer{
+  background-color: rgb(221, 157, 68);
+}
